@@ -39,3 +39,11 @@ Package                      Version
 @schematics/angular          16.0.5 (cli-only)
 
 ```
+
+<br/>
+
+### 15 String Interpolation | Angular Components & Directives | A Complete Angular Course
+
+```
+$ ng generate component productList
+```
