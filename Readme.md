@@ -1,11 +1,12 @@
 # [YouTube] A Complete Angular Course from Scratch
 
-https://www.youtube.com/playlist?list=PL1BztTYDF-QNlGo5-g65Xj1mINHYk_FM9
+<br/>
 
+[Deploy](https://a-complete-angular-course-from-scratch.jsdev.org/)
 
-src:  
-https://github.com/manojjha86/angular-16-complete-course/tree/main/angular-16-resources
+[YouTube](https://www.youtube.com/playlist?list=PL1BztTYDF-QNlGo5-g65Xj1mINHYk_FM9)
 
+[Original src](https://github.com/manojjha86/angular-16-complete-course/tree/main/angular-16-resources)
 
 <br/>
 <hr/>
@@ -20,15 +21,15 @@ $ ng version
   / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
  /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
                 |___/
-    
+
 
 Angular CLI: 16.0.5
 Node: 18.16.0
 Package Manager: npm 9.6.6
 OS: linux x64
 
-Angular: 
-... 
+Angular:
+...
 
 Package                      Version
 ------------------------------------------------------
