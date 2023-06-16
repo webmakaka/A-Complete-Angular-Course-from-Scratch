@@ -21,4 +21,7 @@
   <input (input)="onNameChange($event)" />
   <p>name={{ name }}</p> -->
   <app-search></app-search>
+  <div *ngFor="let item of listOfString">
+    <p>Current element of array is: {{ item }}</p>
+  </div>
 </div>
