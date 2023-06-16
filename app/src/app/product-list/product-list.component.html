@@ -1,3 +1,4 @@
+<img [src]="product.pImage" />
 <p>Name: {{ product.name }}</p>
 <p>Price: {{ '$' + product.price }}</p>
 <p>Color: {{ product.color }}</p>
@@ -12,3 +13,5 @@
       : 'Not in Stock'
   }}
 </p>
+<button [disabled]="!(product.inStock > 0)">Buy Now</button>
+<input [value]="name" />

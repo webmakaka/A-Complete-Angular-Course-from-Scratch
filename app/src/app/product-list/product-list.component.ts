@@ -6,12 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./product-list.component.scss'],
 })
 export class ProductListComponent {
+  name = 'John Doe';
   product = {
     name: 'iPhone',
     price: 799,
     color: 'Red',
     discount: 8.5,
     inStock: 5,
+    pImage: '/assets/images/iphone.webp',
   };
 
   getDiscountedPrice() {
