@@ -47,3 +47,12 @@ Package                      Version
 ```
 $ ng generate component productList
 ```
+
+<br/>
+
+### 18 Two way Data Binding | Angular Components & Directives | A Complete Angular Course
+
+```
+$ cd app/src/app/product-list/
+$ ng generate component search
+```
