@@ -73,3 +73,7 @@ $ ng generate component productList
 <br/>
 
 ### 23 ngStyle Directive | Angular Components & Directives | A Complete Angular Course
+
+<br/>
+
+### 24 ngClass Directive | Angular Components & Directives | A Complete Angular Course
