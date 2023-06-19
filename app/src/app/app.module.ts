@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { ContainerComponent } from './container/container.component';
 import { SearchComponent } from './container/search/search.component';
 import { ProductListComponent } from './container/product-list/product-list.component';
+import { ProductComponent } from './container/product-list/product/product.component';
 
 @NgModule({
   imports: [BrowserModule, AppRoutingModule, FormsModule],
@@ -23,6 +24,7 @@ import { ProductListComponent } from './container/product-list/product-list.comp
     MainMenuComponent,
     TopMenuComponent,
     ProductListComponent,
+    ProductComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -77,3 +77,12 @@ $ ng generate component productList
 <br/>
 
 ### 24 ngClass Directive | Angular Components & Directives | A Complete Angular Course
+
+<br/>
+
+### 25 @Input: Custom Property Binding | Angular Components & Directives | A Complete Angular Course
+
+```
+$ cd app/src/app/container/product-list/
+$ ng generate component product
+```
