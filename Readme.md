@@ -56,3 +56,12 @@ $ ng generate component productList
 $ cd app/src/app/product-list/
 $ ng generate component search
 ```
+
+<br/>
+
+### 21 Rendering List of Complex Type | Angular Components & Directives | A Complete Angular Course
+
+```
+$ cd app/src/app/container/
+$ ng generate component productList
+```

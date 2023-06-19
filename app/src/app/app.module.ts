@@ -4,12 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from 'src/app/header/header.component';
 import { MainMenuComponent } from 'src/app/header/main-menu/main-menu.component';
-import { TopHeaderComponent } from 'src/app/header/top--header/topHeader.component';
 import { TopMenuComponent } from 'src/app/header/top-menu/top-menu.component';
+import { TopHeaderComponent } from 'src/app/top--header/topHeader.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ProductListComponent } from './product-list/product-list.component';
-import { SearchComponent } from './product-list/search/search.component';
+import { ContainerComponent } from './container/container.component';
+import { SearchComponent } from './container/search/search.component';
+import { ProductListComponent } from './container/product-list/product-list.component';
 
 @NgModule({
   imports: [BrowserModule, AppRoutingModule, FormsModule],
@@ -17,10 +18,11 @@ import { SearchComponent } from './product-list/search/search.component';
     AppComponent,
     TopHeaderComponent,
     HeaderComponent,
-    ProductListComponent,
+    ContainerComponent,
     SearchComponent,
     MainMenuComponent,
     TopMenuComponent,
+    ProductListComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
