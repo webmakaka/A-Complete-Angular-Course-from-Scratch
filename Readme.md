@@ -65,3 +65,7 @@ $ ng generate component search
 $ cd app/src/app/container/
 $ ng generate component productList
 ```
+
+<br/>
+
+### 22 ngIf Directive | Angular Components & Directives | A Complete Angular Course
