@@ -86,3 +86,12 @@ $ ng generate component productList
 $ cd app/src/app/container/product-list/
 $ ng generate component product
 ```
+
+<br/>
+
+### 26 Understanding Input Decorator | Angular Components & Directives | A Complete Angular Course
+
+```
+$ cd app/src/app/container/product-list/
+$ ng generate component filter
+```
