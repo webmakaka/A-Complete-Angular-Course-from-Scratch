@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Product } from 'src/app/models/Product';
 
 @Component({
   selector: 'product-list',
@@ -6,7 +7,9 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./product-list.component.scss'],
 })
 export class ProductListComponent {
-  products = [
+  selectedProduct: Product;
+
+  products: Product[] = [
     {
       id: 1,
       name: 'Nike React Infinity Run Flyknit',
@@ -266,7 +269,7 @@ export class ProductListComponent {
       is_in_inventory: false,
       items_left: 4,
       imageURL:
-        'https://cdn.shopify.com/s/files/1/0016/0074/9623/products/BRIDGPORT_ADVICE-BLACK_1_800x800.jpg?v=1576567903',
+        'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-73e54c0b-11a6-478b-9f90-bd97fcde872d/renew-run-big-kids-running-shoe-5Bpz93.jpg',
       slug: 'bridgport-advice',
     },
     {
@@ -284,14 +287,14 @@ export class ProductListComponent {
       is_in_inventory: true,
       items_left: 5,
       imageURL:
-        'https://cdn.shopify.com/s/files/1/0016/0074/9623/products/Beck-Black_800x800.jpg',
+        'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-73e54c0b-11a6-478b-9f90-bd97fcde872d/renew-run-big-kids-running-shoe-5Bpz93.jpg',
       slug: 'beck',
     },
     {
       id: 17,
       name: 'Fester',
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "Fester - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
       brand: 'HUSHPUPPIES',
       gender: 'MEN',
       category: 'FORMAL',
@@ -301,7 +304,7 @@ export class ProductListComponent {
       is_in_inventory: true,
       items_left: 6,
       imageURL:
-        'https://cdn.shopify.com/s/files/1/0016/0074/9623/products/fester-Tan_800x800.jpg?v=1575537531',
+        'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-73e54c0b-11a6-478b-9f90-bd97fcde872d/renew-run-big-kids-running-shoe-5Bpz93.jpg',
       slug: 'fester',
     },
     {
@@ -318,7 +321,7 @@ export class ProductListComponent {
       is_in_inventory: true,
       items_left: 7,
       imageURL:
-        'https://cdn.shopify.com/s/files/1/0016/0074/9623/products/PIXEL-TAN_800x800.jpg?v=1577420506',
+        'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/i1-73e54c0b-11a6-478b-9f90-bd97fcde872d/renew-run-big-kids-running-shoe-5Bpz93.jpg',
       slug: 'pixel',
     },
     {
@@ -561,7 +564,7 @@ export class ProductListComponent {
       is_in_inventory: true,
       items_left: 3,
       imageURL:
-        "https://assets.reebok.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy/7599294868804d78a1b1ab6f01718a5e_9366/Club_C_Revenge_Men's_Shoes_White_FV9877_01_standard.jpg",
+        'https://assets.adidas.com/images/h_320,f_auto,q_auto:sensitive,fl_lossy/12365dbc7c424288b7cdab4900dc7099_9366/Superstar_Shoes_White_FW3553_FW3553_01_standard.jpg',
       slug: 'club-c-revenge-mens',
     },
     {

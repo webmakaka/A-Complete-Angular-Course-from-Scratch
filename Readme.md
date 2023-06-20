@@ -107,3 +107,12 @@ $ ng generate component filter
 <br/>
 
 ### 29 Template Reference Variable | Angular Component & Directives | A Complete Angular Course
+
+<br/>
+
+### 30 Reference Variable on Component | Angular Component & Directives | A Complete Angular Course
+
+```
+$ cd app/src/app/container/
+$ ng generate component product-detail
+```
