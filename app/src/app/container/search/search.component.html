@@ -1,5 +1,9 @@
 <div class="ekart--search--product">
-  <input class="ekart-search-product-input" [(ngModel)]="searchText" />
+  <input
+    class="ekart-search-product-input"
+    [(ngModel)]="searchText"
+    (input)="onSearchTextChanged()"
+  />
   <button
     [ngClass]="{
       btn: true,

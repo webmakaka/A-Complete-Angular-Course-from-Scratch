@@ -6,12 +6,11 @@
 ></app-filter>
 <div class="ekart--products--container">
   <div *ngFor="let prod of products">
+    <!-- *ngIf=" selectedFilterRadioButton === 'all' ||
+    prod.is_in_inventory.toString() === selectedFilterRadioButton" -->
     <app-product
-      *ngIf="
-        selectedFilterRadioButton === 'all' ||
-        prod.is_in_inventory.toString() === selectedFilterRadioButton
-      "
       [product]="prod"
+      *ngIf="searchText === '' || prod.name.toLowerCase().includes(searchText)"
     ></app-product>
   </div>
 </div>

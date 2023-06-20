@@ -99,3 +99,7 @@ $ ng generate component filter
 <br/>
 
 ### 27 @Output: Custom Event Binding | Angular Components & Directives | A Complete Angular Course
+
+<br/>
+
+### 28 Non-Related Component Communication | Angular Component & Directives | A Complete Angular Course
