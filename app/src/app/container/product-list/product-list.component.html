@@ -10,7 +10,10 @@
     prod.is_in_inventory.toString() === selectedFilterRadioButton" -->
     <app-product
       [product]="prod"
-      *ngIf="searchText === '' || prod.name.toLowerCase().includes(searchText)"
+      *ngIf="
+        searchText === '' ||
+        prod.name.toLowerCase().includes(searchText.toLowerCase())
+      "
     ></app-product>
   </div>
 </div>

@@ -103,3 +103,7 @@ $ ng generate component filter
 <br/>
 
 ### 28 Non-Related Component Communication | Angular Component & Directives | A Complete Angular Course
+
+<br/>
+
+### 29 Template Reference Variable | Angular Component & Directives | A Complete Angular Course
