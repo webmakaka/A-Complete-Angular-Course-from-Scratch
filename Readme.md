@@ -95,3 +95,7 @@ $ ng generate component product
 $ cd app/src/app/container/product-list/
 $ ng generate component filter
 ```
+
+<br/>
+
+### 27 @Output: Custom Event Binding | Angular Components & Directives | A Complete Angular Course
