@@ -132,3 +132,7 @@ $ ng generate component product-detail
 <br/>
 
 ### 33 ng-template in Angular
+
+<br/>
+
+### 34 ng-container in Angular
