@@ -42,7 +42,7 @@ Package                      Version
 
 <br/>
 
-### 15 String Interpolation | Angular Components & Directives | A Complete Angular Course
+### 15 String Interpolation
 
 ```
 $ ng generate component productList
@@ -50,7 +50,7 @@ $ ng generate component productList
 
 <br/>
 
-### 18 Two way Data Binding | Angular Components & Directives | A Complete Angular Course
+### 18 Two way Data Binding
 
 ```
 $ cd app/src/app/product-list/
@@ -59,7 +59,7 @@ $ ng generate component search
 
 <br/>
 
-### 21 Rendering List of Complex Type | Angular Components & Directives | A Complete Angular Course
+### 21 Rendering List of Complex Type
 
 ```
 $ cd app/src/app/container/
@@ -68,19 +68,19 @@ $ ng generate component productList
 
 <br/>
 
-### 22 ngIf Directive | Angular Components & Directives | A Complete Angular Course
+### 22 ngIf Directive
 
 <br/>
 
-### 23 ngStyle Directive | Angular Components & Directives | A Complete Angular Course
+### 23 ngStyle Directive
 
 <br/>
 
-### 24 ngClass Directive | Angular Components & Directives | A Complete Angular Course
+### 24 ngClass Directive
 
 <br/>
 
-### 25 @Input: Custom Property Binding | Angular Components & Directives | A Complete Angular Course
+### 25 @Input: Custom Property Binding
 
 ```
 $ cd app/src/app/container/product-list/
@@ -89,7 +89,7 @@ $ ng generate component product
 
 <br/>
 
-### 26 Understanding Input Decorator | Angular Components & Directives | A Complete Angular Course
+### 26 Understanding Input Decorator
 
 ```
 $ cd app/src/app/container/product-list/
@@ -98,21 +98,29 @@ $ ng generate component filter
 
 <br/>
 
-### 27 @Output: Custom Event Binding | Angular Components & Directives | A Complete Angular Course
+### 27 @Output: Custom Event Binding
 
 <br/>
 
-### 28 Non-Related Component Communication | Angular Component & Directives | A Complete Angular Course
+### 28 Non-Related Component Communication
 
 <br/>
 
-### 29 Template Reference Variable | Angular Component & Directives | A Complete Angular Course
+### 29 Template Reference Variable
 
 <br/>
 
-### 30 Reference Variable on Component | Angular Component & Directives | A Complete Angular Course
+### 30 Reference Variable on Component
 
 ```
 $ cd app/src/app/container/
 $ ng generate component product-detail
 ```
+
+<br/>
+
+### 31 ViewChild() in Angular
+
+<br/>
+
+![Application](/img/pic-m31-p01.gif?raw=true)

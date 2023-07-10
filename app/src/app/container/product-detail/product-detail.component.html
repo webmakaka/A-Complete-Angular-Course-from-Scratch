@@ -3,20 +3,17 @@
     <i class="fa fa-times" aria-hidden="true"></i>
   </div>
   <div class="ekart-product-detail-image">
-    <img
-      src="https://images.vans.com/is/image/Vans/MV122M-HERO?$583x583$"
-      class="ekart-product-detail-image"
-    />
+    <img [src]="product.imageURL" class="ekart-product-detail-image" />
   </div>
 
   <div class="ekart-product-detail">
     <div class="ekart-product-detail-name">
-      <h2>Michael Feburary SK8-Hi</h2>
+      <h2>{{ product.name }}</h2>
     </div>
     <div class="ekart-product-detail-gbc">
-      <span>MEN</span>
-      <span>NIKE</span>
-      <span>SPORTS</span>
+      <span>{{ product.gender }}</span>
+      <span>{{ product.brand }} </span>
+      <span>{{ product.category }} </span>
     </div>
     <div class="ekart-product-detail-price">
       <p>
