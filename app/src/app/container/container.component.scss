@@ -2,3 +2,28 @@
   margin: 20px auto;
   padding: 0px 20vh;
 }
+
+.ekart-featured-products {
+  background-color: #282828;
+  padding: 20px 10px;
+  display: flex;
+}
+
+.ekart-featured-product-heading {
+  width: 320px;
+  margin: 10px 10px;
+  padding: 20px 30px;
+  color: #fff;
+}
+
+.title,
+.call-to-action {
+  margin: 10px 0px;
+}
+
+.call-to-action {
+  background-color: #282828;
+  color: #fff;
+  width: 100%;
+  padding: 10px 0px;
+}

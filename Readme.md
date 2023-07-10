@@ -136,3 +136,12 @@ $ ng generate component product-detail
 <br/>
 
 ### 34 ng-container in Angular
+
+<br/>
+
+### 35 ng-content in Angular
+
+```
+$ cd src/app/container/
+$ ng generate component featured-brands
+```

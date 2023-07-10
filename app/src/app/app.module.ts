@@ -4,16 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from 'src/app/header/header.component';
 import { MainMenuComponent } from 'src/app/header/main-menu/main-menu.component';
-import { TopMenuComponent } from 'src/app/header/top-menu/top-menu.component';
 import { TopHeaderComponent } from 'src/app/top--header/topHeader.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContainerComponent } from './container/container.component';
-import { SearchComponent } from './container/search/search.component';
+import { FeaturedBrandsComponent } from './container/featured-brands/featured-brands.component';
+import { ProductDetailComponent } from './container/product-detail/product-detail.component';
+import { FilterComponent } from './container/product-list/filter/filter.component';
 import { ProductListComponent } from './container/product-list/product-list.component';
 import { ProductComponent } from './container/product-list/product/product.component';
-import { FilterComponent } from './container/product-list/filter/filter.component';
-import { ProductDetailComponent } from './container/product-detail/product-detail.component';
+import { SearchComponent } from './container/search/search.component';
 
 @NgModule({
   imports: [BrowserModule, AppRoutingModule, FormsModule],
@@ -24,11 +24,11 @@ import { ProductDetailComponent } from './container/product-detail/product-detai
     ContainerComponent,
     SearchComponent,
     MainMenuComponent,
-    TopMenuComponent,
     ProductListComponent,
     ProductComponent,
     FilterComponent,
     ProductDetailComponent,
+    FeaturedBrandsComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
