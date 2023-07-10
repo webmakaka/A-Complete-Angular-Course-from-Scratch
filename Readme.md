@@ -124,3 +124,11 @@ $ ng generate component product-detail
 <br/>
 
 ![Application](/img/pic-m31-p01.gif?raw=true)
+
+<br/>
+
+### 32 ViewChildren() in Angular
+
+<br/>
+
+### 33 ng-template in Angular
