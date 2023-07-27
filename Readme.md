@@ -214,3 +214,12 @@ $ ng generate component featured-brands
 $ cd app/src/app/CustomDirectives/
 $ ng generate directive highlight
 ```
+
+<br/>
+
+### 50 @HostBinding in Angular
+
+```
+$ cd app/src/app/CustomDirectives/
+$ ng generate directive appHover
+```

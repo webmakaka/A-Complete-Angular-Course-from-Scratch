@@ -16,6 +16,7 @@ import { ProductListComponent } from './container/product-list/product-list.comp
 import { ProductComponent } from './container/product-list/product/product.component';
 import { SearchComponent } from './container/search/search.component';
 import { HighlightDirective } from './CustomDirectives/highlight.directive';
+import { AppHoverDirective } from './CustomDirectives/app-hover.directive';
 
 @NgModule({
   imports: [BrowserModule, AppRoutingModule, FormsModule],
@@ -33,6 +34,7 @@ import { HighlightDirective } from './CustomDirectives/highlight.directive';
     FeaturedBrandsComponent,
     SetBackground,
     HighlightDirective,
+    AppHoverDirective,
   ],
   providers: [],
   bootstrap: [AppComponent],
