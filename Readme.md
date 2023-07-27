@@ -1,4 +1,4 @@
-# [YouTube] A Complete Angular Course from Scratch
+# [YouTube][procademy] A Complete Angular Course from Scratch [ENG, 2023]
 
 <br/>
 
@@ -145,3 +145,59 @@ $ ng generate component product-detail
 $ cd src/app/container/
 $ ng generate component featured-brands
 ```
+
+<br/>
+
+### 36 ContentChild() in Angular
+
+<br/>
+
+### 37 ContentChildren() in Angular
+
+<br/>
+
+### 38 Component Initialization
+
+<br/>
+
+<hr/>
+
+<br/>
+
+### 39 ngOnChanges Lifecycle Hook
+
+<br/>
+
+### 40 ngOnInit Lifecycle Hook
+
+<br/>
+
+### 41 ngDoCheck Lifecycle Hook
+
+<br/>
+
+### 42 ngAfterContentInit Lifecycle Hook
+
+<br/>
+
+### 43 ngAfterContentChecked Lifecycle Hook
+
+<br/>
+
+### 44 ngAfterViewInit Lifecycle Hook
+
+<br/>
+
+### 45 ngAfterViewChecked Lifecycle Hook
+
+<br/>
+
+### 46 ngOnDestroy Lifecycle Hook
+
+<br/>
+
+<hr/>
+
+<br/>
+
+### 47 Custom Attribute Directive

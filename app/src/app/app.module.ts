@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { FormsModule } from '@angular/forms';
+import { SetBackground } from 'src/app/CustomDirectives/SetBackground.directive';
 import { HeaderComponent } from 'src/app/header/header.component';
 import { MainMenuComponent } from 'src/app/header/main-menu/main-menu.component';
 import { TopHeaderComponent } from 'src/app/top--header/topHeader.component';
@@ -29,6 +30,7 @@ import { SearchComponent } from './container/search/search.component';
     FilterComponent,
     ProductDetailComponent,
     FeaturedBrandsComponent,
+    SetBackground,
   ],
   providers: [],
   bootstrap: [AppComponent],
