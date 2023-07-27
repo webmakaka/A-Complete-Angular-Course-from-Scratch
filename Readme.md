@@ -204,8 +204,13 @@ $ ng generate component featured-brands
 
 <br/>
 
-### 47 Custom Attribute Directive
+### 48 Renderer2 in Angular Creating & Using Custom Directive
 
 <br/>
 
-### 48 Renderer2 in Angular Creating & Using Custom Directive
+### 49 @HostListner in Angular
+
+```
+$ cd app/src/app/CustomDirectives/
+$ ng generate directive highlight
+```

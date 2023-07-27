@@ -15,6 +15,7 @@ import { FilterComponent } from './container/product-list/filter/filter.componen
 import { ProductListComponent } from './container/product-list/product-list.component';
 import { ProductComponent } from './container/product-list/product/product.component';
 import { SearchComponent } from './container/search/search.component';
+import { HighlightDirective } from './CustomDirectives/highlight.directive';
 
 @NgModule({
   imports: [BrowserModule, AppRoutingModule, FormsModule],
@@ -31,6 +32,7 @@ import { SearchComponent } from './container/search/search.component';
     ProductDetailComponent,
     FeaturedBrandsComponent,
     SetBackground,
+    HighlightDirective,
   ],
   providers: [],
   bootstrap: [AppComponent],
