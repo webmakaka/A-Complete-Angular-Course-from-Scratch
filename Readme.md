@@ -201,3 +201,11 @@ $ ng generate component featured-brands
 <br/>
 
 ### 47 Custom Attribute Directive
+
+<br/>
+
+### 47 Custom Attribute Directive
+
+<br/>
+
+### 48 Renderer2 in Angular Creating & Using Custom Directive
